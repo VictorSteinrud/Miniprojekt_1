@@ -78,6 +78,7 @@ def draw_hands():
     endx = 320 + 90 * math.cos(angle_hour)
     endy = 240 + 90 * math.sin(angle_hour)
     pygame.draw.line(screen, (0, 0, 0), (320, 240), (endx, endy), 6)
+    
 
 
 def clock():
