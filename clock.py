@@ -24,14 +24,12 @@ def small_radiating_lines():
         pygame.draw.line(screen, (0, 0, 0), (x, y), (x_end, y_end), width=3)
 
 
-small_radiating_lines()
 
 
 def white_cirle_big():
     pygame.draw.circle(screen, (255, 255, 255), (320, 240), 187)
 
  
-white_cirle_big()
 
 def radiating_lines():
     n = 12
@@ -47,19 +45,16 @@ def radiating_lines():
         pygame.draw.line(screen, (0, 0, 0), (x, y), (x_end, y_end), width=5)
 
 
-radiating_lines()
 
 
 def white_cirle_small():
     pygame.draw.circle(screen, (255, 255, 255), (320, 240), 165)
 
-white_cirle_small()
 
 
 def outer_circle():
     pygame.draw.circle(screen, (0, 0, 0), (320, 240), 201, 5)
 
-outer_circle()
 
 def draw_hands():
     now = datetime.datetime.now()
