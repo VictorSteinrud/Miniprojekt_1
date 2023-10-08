@@ -89,6 +89,7 @@ def clock():
     outer_circle()
     draw_hands()
     pygame.display.flip()
+    print()
 
 while True:
     for event in pygame.event.get():
